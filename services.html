@@ -12,17 +12,6 @@
     <meta name="theme-color" content="#fd9a6f">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="manifest.json">
-    <script>
-        // Register service worker.
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('service-worker.js')
-                .then((reg) => {
-                    console.log('Service worker registered.', reg);
-                });
-            });
-        }
-    </script>
 </head>
 
 <body class="m-0 p-0 box-border">
