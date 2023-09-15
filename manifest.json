@@ -1,7 +1,7 @@
 {
     "name": "Atrinor Rénovation résidentielle",
     "short_name": "Atrinor",
-    "start_url": "index.html",
+    "start_url": "https://taliefellis.github.io/TIIW2-TP3-Atrinor/index.html",
     "display": "standalone",
     "background_color": "#fef8f5",
     "theme_color": "#fd9a6f",
