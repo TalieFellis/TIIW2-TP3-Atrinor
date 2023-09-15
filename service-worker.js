@@ -1,5 +1,4 @@
-// service-worker.js
-const CACHE_NAME = 'static-cache-v14';
+const CACHE_NAME = 'static-cache-v14'; // Vous pouvez garder ce nom unique
 
 // Ajouter la liste des fichiers.
 const FILES_TO_CACHE = [
