@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <base href="https://taliefellis.github.io/TIIW2-TP3-Atrinor/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="ATRINOR_Logo_2023.png">
@@ -9,6 +10,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Confirmation</title>
 
+    <script>
+        // Register service worker.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then((reg) => {
+                        console.log('Service worker registered.', reg);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
