@@ -1,86 +1,28 @@
 {
-    "name": "Atrinor Rénovation résidentielle",
+    "name": "Atrinor_Rénovation_résidentielle",
     "short_name": "Atrinor",
+    "icons": [
+        {
+        "src": "elements/icones/maskable-logo-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "maskable"
+        },
+        {
+        "src": "elements/icones/maskable-logo-icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+        },
+        {
+        "src": "elements/icones/maskable-logo-icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+        }
+    ],
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fef8f5",
-    "theme_color": "#fd9a6f",
-    "icons": [{
-            "src": "/elements/icones/accreditation1-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation1-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation2-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation2-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation3-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation3-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation4-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/accreditation4-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/logo-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/logo-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/portrait-icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose" : "maskable"
-        },
-        {
-            "src": "/elements/icones/portrait-icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose" : "maskable"
-        }
-    ],
-    "scope": "./",
-    "serviceworker": {
-        "src": "service-worker.js",
-        "scope": "./"
-    }
+    "theme_color": "#fd9a6f"
 }

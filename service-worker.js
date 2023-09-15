@@ -1,4 +1,4 @@
-const CACHE_NAME = 'static-cache-v14'; // Vous pouvez garder ce nom unique
+const CACHE_NAME = 'renovation-residentielle-cache-v1';
 
 // Ajouter la liste des fichiers.
 const FILES_TO_CACHE = [
@@ -7,7 +7,6 @@ const FILES_TO_CACHE = [
     'contact.html',
     'equipe.html',
     'services.html',
-    // Ajoutez ici d'autres fichiers statiques à mettre en cache
 ];
 
 self.addEventListener('install', (evt) => {

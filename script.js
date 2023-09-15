@@ -1,3 +1,4 @@
+// Enregistremen
 // Validation du formulaire de contact
 
 const form = document.getElementById('contact-form');
