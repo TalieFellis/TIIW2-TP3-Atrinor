@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Favicon-Fremen.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
 
     <title>Atrinor - Contactez-nous</title>
 </head>
@@ -102,31 +103,36 @@
 
                     <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
                         <form form id="contact-form" action="confirmation.html" method="get" onsubmit="return validateForm()" novalidate class="space-y-4">
-                            <div>
+                            <div class="border rounded-lg border-gray-200">
                                 <label for="prenom" class="sr-only">Prénom</label>
                                 <input class="w-full rounded-lg border-gray-200 p-3 text-sm" type="text" id="prenom" placeholder="Prénom" required />
+                                <div class="error-message text-red-600 text-xs mt-1"></div>
                             </div>
                     
-                            <div>
+                            <div class="border rounded-lg border-gray-200">
                                 <label for="nom" class="sr-only">Nom</label>
                                 <input class="w-full rounded-lg border-gray-200 p-3 text-sm" type="text" id="nom" placeholder="Nom" required />
+                                <div class="error-message text-red-600 text-xs mt-1"></div>
                             </div>
                     
                             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                                <div>
+                                <div class="border rounded-lg border-gray-200">
                                     <label for="email" class="sr-only">Courriel</label>
                                     <input class="w-full rounded-lg border-gray-200 p-3 text-sm" type="email" id="email" placeholder="Adresse courriel" required />
+                                    <div class="error-message text-red-600 text-xs mt-1"></div>
                                 </div>
                     
-                                <div>
+                                <div class="border rounded-lg border-gray-200">
                                     <label for="phone" class="sr-only">Téléphone</label>
                                     <input class="w-full rounded-lg border-gray-200 p-3 text-sm" type="tel" id="phone" placeholder="Numéro de téléphone" required />
+                                    <div class="error-message text-red-600 text-xs mt-1"></div>
                                 </div>
                             </div>
                     
                             <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
                                 <div>
                                     <input class="peer sr-only" id="option1" type="radio" name="option" />
+                                    <div class="error-message text-red-600 text-xs mt-1"></div>
                     
                                     <label for="option1" class="block w-full rounded-lg border border-gray-200 p-3 text-gray-600 hover:border-black peer-checked:border-black peer-checked:bg-[#075373] peer-checked:text-white cursor-pointer">
                                         <span class="text-sm">Construction neuve</span>
@@ -150,9 +156,10 @@
                                 </div>
                             </div>
                     
-                            <div>
+                            <div class="border rounded-lg border-gray-200">
                                 <label for="message" class="sr-only">Message</label>
                                 <textarea class="w-full rounded-lg border-gray-200 p-3 text-sm" id="message" placeholder="Message" rows="8"></textarea>
+                                <div class="error-message text-red-600 text-xs mt-1"></div>
                             </div>
                     
                             <div class="mt-4">
